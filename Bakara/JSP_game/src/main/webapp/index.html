@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>미니 게임 월드</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f2f5; }
+    .container { text-align: center; }
+    h1 { color: #333; }
+    .game-link {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #4a7;
+      color: white;
+      padding: 20px 40px;
+      margin: 20px;
+      border-radius: 10px;
+      font-size: 24px;
+      transition: transform 0.2s;
+    }
+    .game-link:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>미니 게임 월드</h1>
+    <a href="ladder.jsp" class="game-link">사다리 게임</a>
+    <a href="roulette.jsp" class="game-link">룰렛 게임</a>
+  </div>
+</body>
+</html>
